@@ -2,47 +2,53 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: arial;
+    color:rgba(37, 35, 35, 0.835);
   }
+
   
+  
+ 
   
   body {
-    background-color: rgba(128, 128, 128, 0.231);
+    background-color:rgba(21, 21, 21, 0.092);
+    
   }
   
   header {
-    height: 50px;
-    
     margin-bottom: 40px;
     background-color: white;
   }
   nav{
-    padding-bottom: 10px;
     padding-left: 40px;
   }
   
   #logo {  
-    padding-left: 70px; 
+    padding-left:20%;
   }
   
   #title {
    display: inline-block;
    vertical-align: top;
    font-size:xx-large;
+   color: black;
+   
+   
    
   }
   
   #main {
     margin: auto;
     background-color:rgba(255, 255, 255, 0.774);
-    height: 500px;
-    width: 600px;
+    width: 50%;
     border-radius: 7px;
+    
   }
   
  #pulsanti{
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     padding-right: 30px;
   }
   
@@ -51,28 +57,33 @@
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
+
     
   }
   
  #button1 {
     background-color: rgb(83, 182, 205);
     color: white;
+    border-color:rgb(83, 182, 205) ;
   }
   
   #button2 {
     background-color:white;
-    color:rgba(128, 128, 128, 0.32);
+    color:rgba(128, 128, 128, 0.472);
+    border-color:rgba(128, 128, 128, 0.472) ;
   }
   
   hr {
-    border-width: 1px  ;
+    border-width: 1;
     border-style: solid;
     border-color:rgba(128, 128, 128, 0.231);
+    margin-bottom: 35px;
    
   }
 
   #listContainer{
     margin: 25px 35px;
+    height:500px;
   }
   
   #listContainer ul {
@@ -89,6 +100,141 @@
   #listContainer li h3{
     font-weight: lighter;
   }
+  
+.list{
+    margin-bottom: 10%
+}
+  
+  .spunta{
+    display: inline-block;
+    width: 16px;
+    margin-right: 5px;
+    margin-left: 3px;
+    border-radius: 10px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(87, 146, 162);
+    color: rgb(62, 180, 207);
+    
+   
+    
+  }
+  
+ 
+  
+ .croce{
+    display: inline-block;
+    width: 16px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border-radius: 10px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(163, 12, 12);
+    color:rgb(163, 12, 12);
+    
+  }
+  
+  .editorial {
+    color: white;
+    background-color: rgb(0, 162, 255);
+    padding: 5px;
+    font-size: 10px;
+    height: 15px;
+    border-radius: 8px;
+    margin-left: 3px;
+    line-height: 15px; 
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    
+  }
+
+  #q1{
+    color: white;
+    background-color: rgb(140, 65, 186);
+    padding: 5px;
+    height: 15px;
+    border-radius: 8px;
+    margin-left: 3px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    
+
+  }
+  #recruiting{ 
+    color: white;
+    background-color: rgb(65, 186, 125);
+    padding: 5px;
+    font-size: 10px;
+    height: 15px;
+    border-radius: 8px;
+    margin-left: 3px;
+    line-height: 15px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+
+  }
 
   
+    #mobile{
+        color: white;
+        background-color: rgb(210, 143, 20);
+        padding: 5px;
+        height: 15px;
+        border-radius: 8px;
+        margin-left: 3px;
+        line-height: 15px;
+        font-size: 10px;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+
+    }
+
+    #website{
+        color: white;
+        background-color: rgb(176, 65, 186);
+        padding: 5px;
+        height: 15px;
+        border-radius: 8px;
+        margin-left: 3px;
+        line-height: 15px;
+        font-size: 10px;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+
+    }
+
+
+
+#sales{
+    color: white;
+        background-color: rgb(131, 186, 65);
+        padding: 5px;
+        height: 15px;
+        border-radius: 8px;
+        margin-left: 3px;
+        line-height: 15px;
+        font-size: 10px;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+
+}
+
+
+  
+ 
   
