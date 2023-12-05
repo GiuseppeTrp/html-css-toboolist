@@ -1,15 +1,94 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    font-weight: bold;
-    color: grey;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    background-color: rgba(128, 128, 128, 0.231);
+  }
+  
+  header {
+    height: 50px;
+    
+    margin-bottom: 40px;
+    background-color: white;
+  }
+  nav{
+    padding-bottom: 10px;
+    padding-left: 40px;
+  }
+  
+  #logo {  
+    padding-left: 70px; 
+  }
+  
+  #title {
+   display: inline-block;
+   vertical-align: top;
+   font-size:xx-large;
+   
+  }
+  
+  #main {
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.774);
+    height: 500px;
+    width: 600px;
+    border-radius: 7px;
+  }
+  
+ #pulsanti{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  button{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    
+  }
+  
+ #button1 {
+    background-color: rgb(83, 182, 205);
+    color: white;
+  }
+  
+  #button2 {
+    background-color:white;
+    color:rgba(128, 128, 128, 0.32);
+  }
+  
+  hr {
+    border-width: 1px  ;
+    border-style: solid;
+    border-color:rgba(128, 128, 128, 0.231);
+   
+  }
 
-#title{
-    display: inline-block;
-}
+  #listContainer{
+    margin: 25px 35px;
+  }
+  
+  #listContainer ul {
+    list-style: none;
+    font-family: arial;
+  }
 
-h3{
+  
+  #listContainer li {
+    margin: 8px;
+    
+  }
+
+  #listContainer li h3{
     font-weight: lighter;
-}
+  }
+
+  
+  
