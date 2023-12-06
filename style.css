@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: arial;
-    color:rgba(37, 35, 35, 0.835);
+    
   }
 
   
@@ -88,7 +88,7 @@
   
   #listContainer ul {
     list-style: none;
-    font-family: arial;
+    
   }
 
   
